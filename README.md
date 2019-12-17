@@ -1,3 +1,5 @@
+<img align="right" width="375" src="https://raw.githubusercontent.com/francisbrito/personal-finances/master/docs/showcase.gif"/>
+
 # WIP: Personal Finances
 > A toy web service to feed a personal finances management application.
 
