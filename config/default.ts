@@ -15,6 +15,7 @@ env.config({
 });
 
 assert(process.env.DB_URL, "DB_URL environment variable is missing");
+assert(process.env.SECRET, "SECRET environment variable is missing");
 
 const { database, host, port, user, password } = parse(process.env.DB_URL!);
 
@@ -32,5 +33,6 @@ export default {
     migrations: path.join(PROJECT_ROOT, "src", "data", "migrations"),
     projectRoot: PROJECT_ROOT,
     templates: path.join(PROJECT_ROOT, "src", "rest", "templates")
-  }
+  },
+  secret: process.env.SECRET
 };
