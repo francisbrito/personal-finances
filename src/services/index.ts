@@ -1,0 +1,1 @@
+export { registerEntry } from "./entry";
