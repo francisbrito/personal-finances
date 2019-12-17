@@ -13,7 +13,7 @@ const authentication: fastify.Plugin<
   http.IncomingMessage,
   http.ServerResponse,
   {}
-> = (instance, options) => {
+> = async (instance, options) => {
   instance
     .register(jwt, {
       secret: config.get<string>("secret")
