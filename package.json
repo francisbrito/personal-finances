@@ -33,7 +33,7 @@
     "decimal.js": "^10.2.0",
     "dotenv": "^8.2.0",
     "ejs": "^3.0.1",
-    "fastify": "^2.11.0",
+    "fastify": "^2.15.1",
     "fastify-cli": "^1.3.0",
     "fastify-jwt": "^1.2.1",
     "fastify-oas": "^2.5.0",
